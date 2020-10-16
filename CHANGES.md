@@ -1,3 +1,10 @@
+Changes in version 3.0.0 (20201016) - Welcome phpcs 3
+-----------------------------------------------------
+- NOBUG: Updated PHP_CodeSniffer to 3.5.6+ (7c1df7d2c).
+- NOBUG: Added PHPCSAliases.php to keep using PHPCompatibility with phpcs 3.
+- NOBUG: Moved our sniffs to phpcs 3
+- NOBUG: Added new runner in place of the one bundled in the UI 
+
 Changes in version 2.9.8 (20201002) - Bye and thank you, phpcs 2.x
 ------------------------------------------------------------------
 - [PR#83](https://github.com/moodlehq/moodle-local_codechecker/pull/83) and [PR#84](https://github.com/moodlehq/moodle-local_codechecker/pull/84): Allow a list of files to be checked (Sam Marshall).
